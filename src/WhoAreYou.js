@@ -51,7 +51,7 @@ export default ({ nextCombination, currentCombination }) => (
           i'm pepijn, i'm a software engineer and i listen to edgy music
         </Paragraph>
         <Paragraph>
-          i live in berlin, i speak dutch, german and english fluently
+          i live in new york city, i speak dutch, german and english fluently
         </Paragraph>
         <Paragraph>
           currently i work mostly with react and modern js back-ends
@@ -89,7 +89,7 @@ export default ({ nextCombination, currentCombination }) => (
           </UnderlinedLink>
         </Paragraph>
         <Paragraph>
-          i help companies scaling their front-ends and i partake in as many
+          i help companies at scaling their front-ends and i partake in as many
           creative projects as possible
         </Paragraph>
         <Paragraph>
