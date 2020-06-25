@@ -7,6 +7,10 @@ import CombinationsProvider from "@/modules/combination";
 const CustomApp = ({ Component, pageProps }: AppProps) => {
   const Layout = (Component as PageWithLayout).Layout;
 
+  if (!Layout) {
+    return <Component {...pageProps} />;
+  }
+
   return (
     <CombinationsProvider>
       <Layout>
