@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Text from "@/design-system/Text";
 import StyledLink from "@/design-system/Link";
 
-import { PageWithLayout } from "./pages";
+import { PageWithLayout } from "../pages";
 import DefaultLayout from "@/layouts/default";
 import CustomHead from "@/modules/head";
 

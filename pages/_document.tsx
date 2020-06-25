@@ -9,7 +9,7 @@ import Document, {
 } from "next/document";
 
 import { ServerStyleSheet } from "styled-components";
-import { PageWithLayout } from "./pages";
+import { PageWithLayout } from "../pages";
 
 class CustomDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {

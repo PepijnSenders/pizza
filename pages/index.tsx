@@ -9,7 +9,7 @@ import DefaultLayout from "@/layouts/default";
 import CustomHead from "@/modules/head";
 import { useCombination } from "@/modules/combination";
 
-import { PageWithLayout } from "./pages";
+import { PageWithLayout } from "../pages";
 
 const WhoAreYou = styled(Text)`
   position: fixed;

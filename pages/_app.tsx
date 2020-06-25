@@ -1,7 +1,7 @@
 import React from "react";
 import { AppProps } from "next/app";
 
-import { PageWithLayout } from "./pages";
+import { PageWithLayout } from "../pages";
 import CombinationsProvider from "@/modules/combination";
 
 const CustomApp = ({ Component, pageProps }: AppProps) => {
